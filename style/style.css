@@ -373,6 +373,36 @@ html {
 /* FOOTER start */
 
 
+.footer {
+    background: var(--linear);
+    padding: 40px 0 50px 0;
+}
+
+.footet__link {
+    margin-right: 48px;
+    color: var(--white);
+    font-size: 24px;
+    transition: 200ms;
+}
+
+.footer__tel {
+    color: var(--green);
+    font-size: 24px;
+    font-family: var(--f700);
+    
+}
+
+.footer__link:last-of-type {
+    margin-right: 0;
+}
+
+.footer__link:hover {
+    color: var(--green_75);
+}
+
+.footer ul {
+    margin-top: 30px;
+}
 /* FOOTER  end*/
 /* *************************** */
 /* MEDIA start */
