@@ -255,6 +255,117 @@ html {
 /* *********************************** */
 /* MAIN start */
 
+.main__nav-link {
+    color: var(--grey);
+    font-size: 20px;
+    font-family: var(--f700);
+    margin-left: 25px;
+    transition: 250ms;
+}
+
+.main__nav {
+    margin: 50px 0 69px 0;
+}
+
+.main__nav-link:hover {
+    color: var(--green);
+}
+
+.main__burger-images {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.main__burger-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main__burger-images-desc {
+    background-color: var(--green_75);
+    color: var(--white);
+    position: absolute;
+    bottom: 0;
+    padding: 21px 20px;
+    max-width: 187px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.main__burger-images-btn {
+    color: var(--white);
+    background: var(--green_90);
+    font-size: 24px;
+    font-family: var(--f700);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 200ms;
+}
+
+.main__burger:hover .main__burger-images-btn {
+    opacity: 1;
+}
+
+.main__burger-title {
+    color: var(--green);
+    font-size: 24px;
+    font-family: var(--f700);
+    margin: 37px 0 18px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main__burger-description {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.main__burger {
+    margin-bottom: 51px;
+
+}
+
+.main {
+    background-color: #060002;
+}
+
+.main__recipe {
+    background: url(../images/section_bg.jpg) no-repeat center center /cover;
+    background-attachment: fixed;
+    padding: 51px 0 50px 0;
+}
+
+.main__recipe-title {
+    color: var(--green);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: var(--f700);
+    margin-bottom: 70px;
+}
+
+.main__resipe-desc {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.main__title {
+    color: var(--green);
+    font-size: 36px;
+    text-align: center;
+    background-color: var(--white);
+    padding: 50px;
+    font-family: var(--f700);
+}
 
 
 /* MAIN end */
